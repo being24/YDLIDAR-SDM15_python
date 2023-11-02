@@ -26,6 +26,7 @@ if __name__ == "__main__":
 
 ## Tips
 - While scanning, the only thins you can do is to stop the scan. If you want to change the baud rate or other settings, you should stop the scan first.
+- After changing the settings, we recommend you to reboot the sensor; the Baud rate setting will not be applied without rebooting, and other setting changes may cause unstable communication afterwards.
 - The lidar will not start scanning until you call the `start_scan()` method.
 - The development manual recommends to start SDM15 normally as follow:
   - first, get version info from the lidar
